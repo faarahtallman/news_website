@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+<style>
+  .column {
+  float: left;
+  width: 30%;
+  margin-right: 50px;
+  margin: 80px;
+  padding-top: 20;
+}
+.contaners{
+  background-color: black;
+  padding: 10%;
+}
+ .about,p {
+color: aliceblue;
+}
+h2 {
+  color: aliceblue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 <body>
- <h1>hhhhhhhhhhhhhhhhhhh</h1>   
+  <div class="row">
+    <div class="column">
+      <div class="contaners">
+      <h2>MISSION</h2>
+      <p>Mission statement: We strive to offer our customers the lowest possible prices, 
+        the best available selection, and the utmost convenience.</p>
+        </div>
+    </div>
+    <div class="column">
+      <div class="contaners">
+      <h2>VISSION</h2>
+      <p>Vision statement: To be Earth's most customer-centric company,
+        where customers can find and discover anything they might want to buy online.</p>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
