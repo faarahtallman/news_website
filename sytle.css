@@ -42,6 +42,9 @@
     font-family: sans-serif;
    
   }
+  p{
+    color: black;
+  }
   
   .logo {
     color: var(--color-white);
@@ -132,11 +135,12 @@
   
   .hero {
     height: calc(100vh - 80px);
-    background-image: url(./bg.jpg);
+    background-image: url(./bg.jpg); 
     background-position: center;
   }
   
   footer {
+    margin-top: 80rem;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -216,6 +220,72 @@ img{
     height: 100%;
     margin: 0.8rem;
     /* width: 45rem; */
+}
+
+.test{
+  background-image: url(./imgs/0a843d91b60ee865f0c5ac8ba2e69624b0590f61_2_690x459.jpeg);
+  background-repeat: repeat-x;
+  /* width: 40rem; */
+  height: 56rem;
+  /* color: whi; */
+  text-align: center;
+  /* margin-top: 22rem; */
+}
+
+.img-one{
+  background-image: url(./imgs/62a030850a538782b1755eeb_coding\ 3.jpg);
+  height: 25rem;
+}
+
+.img-two{
+  background-image: url(./imgs/hargsa.jpg);
+  height: 25rem;
+}
+
+.img-tree{
+  background-image: url(./imgs/turki.jpg);
+  height: 25rem;
+}
+
+.img-four{
+  background-image: url(./imgs/GettyImages-854725402-1.jpg);
+  height: 25rem;
+}
+
+
+.text h1{
+  color: rgb(250, 245, 245);
+  font-size: 42px;
+  font-weight: 900;
+  margin-top: 13rem;
+  /* margin-left: 13rem; */
+  text-shadow:  1px 6px 2px black;
+  /* tex-shadow: var(--color-white); */
+}
+
+.text h3{
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+  background-color: rgba(193, 191, 191, 0.5);
+
+  /* margin-top: 13rem; */
+  /* margin-left: 13rem; */
+  /* text-shadow:  1px 5px 2px black; */
+  /* tex-shadow: var(--color-white); */
+}
+
+.text p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-color: rgb(27,27,27, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.text{
+  width: 48rem;
+  margin-left: 12rem;
 }
 
 /* osop style end */
